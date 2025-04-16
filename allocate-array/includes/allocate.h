@@ -11,5 +11,6 @@ extern int g_capacity;
 
 void init(void);
 int realloc_memory(void);
-
+int get(int in_index);
+int set(int in_value);
 #endif
