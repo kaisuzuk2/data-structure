@@ -19,5 +19,11 @@ extern int g_count;
 void free_list(void);
 void init_list(void);
 t_element *insert_element(int in_index ,char *in_name);
+t_element *delete_element(void);
+t_element *get_current(void);
+t_element *next(void);
+t_element *prev(void);
+t_element *search_element(int in_index);
+int get_num_of_element(void);
 
 #endif
