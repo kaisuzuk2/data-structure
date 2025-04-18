@@ -26,6 +26,7 @@ t_element *top(void);
 t_element *bottom(void);
 t_element *next(void);
 t_element *prev(void);
-t_elmeent *search_element(int in_index);
+t_element *search_element(int in_index);
+int get_num_of_element(void);
 
 #endif
