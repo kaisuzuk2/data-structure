@@ -3,7 +3,7 @@
 t_element *g_top = NULL;
 t_element *g_bottom = NULL;
 t_element *g_current = NULL;
-int count = 0;
+int g_count = 0;
 
 void init_list(void)
 {

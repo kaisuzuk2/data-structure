@@ -15,7 +15,7 @@ t_element *bottom(void)
 t_element *next(void)
 {
     if (g_current == NULL)
-        return (NULL)
+        return (NULL);
     if (g_current->next == NULL)
         return (NULL);
     g_current = g_current->next;

@@ -22,6 +22,6 @@ t_element *add_element(int in_index, char *in_name)
         g_bottom->next = p;
         g_bottom = g_current = p;
     }
-    g_counter++;
+    g_count++;
     return (g_current);
 }
