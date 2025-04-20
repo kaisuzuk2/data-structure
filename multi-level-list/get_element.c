@@ -1,6 +1,6 @@
 #include "multi.h"
 
-t_element *get_element(int in_index, char *out_name)
+int get_element(int in_index, char *out_name)
 {
     t_list *l;
     t_element *p;
@@ -12,7 +12,7 @@ t_element *get_element(int in_index, char *out_name)
         {
             if (l->top != NULL)
             {
-                strpcy(out_name, l->top->name);
+                strcpy(out_name, l->top->name);
                 p = l->top;
                 l->top = l->top->next;
                 l->counter--;

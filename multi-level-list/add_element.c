@@ -43,7 +43,7 @@ t_element *add_element(int in_index, char *in_name)
     p = (t_element *)malloc(sizeof(t_element));
     if (p == NULL)
         return (NULL);
-    strcpy(o->name, in_name);
+    strcpy(p->name, in_name);
     p->next = NULL;
     if (l->top == NULL)
         l->top = l->bottom = p;

@@ -22,4 +22,11 @@ typedef struct s_list {
 extern t_list *g_top;
 extern t_list *g_bottom;
 
+void free_lists(void);
+void init_lists(void);
+t_element *add_element(int in_index, char *in_name);
+int get_element(int in_index, char *out_name);
+int delete_list(int in_index);
+int get_num_of_element(int in_index);
+
 #endif
